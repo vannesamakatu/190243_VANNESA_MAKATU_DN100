@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+    font-family: 'Poppins'; 
+    src: url('../Assets/Fonts/Poppins/Poppins-Bold.ttf') format('ttf'); 
+    font-size: 20px;
+  
+}
+@font-face {
+    font-family: 'Porter Sans';
+    src: url('../Assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff2') format('woff2'),
+         url('../Assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff') format('woff'),
+         url('../Assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.ttf') format('truetype');
+}
+
+
+.headerBg {
+    background-image: url("../Assets/Images/homePageHeader.png");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:initial;
+    position: relative;
+  }
+  
+  
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+
+
+.topNav{
+    width: 255%;
+    overflow:hidden;
+    background-color:rgba(160, 159, 159, 0.5);
+    opacity: o 0.5;
+    border-radius: 30px;
+    margin: 60px;
+    margin-top:20px;
+   
+    
+}
+
+.topNav a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.topNavRight{
+   text-align: center; 
+   padding: 8px;
+   
+}
+
+.topNav a:hover{
+    color: #E86900;
+}
+
+.topNav a.active{
+    color: #E86900;
+}
+
+
+.textOverlay {
+    font-family: 'Porter Sans'; /* Name your font family */
+    src: url('../Assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.ttf') format('ttf'); /* Path to your font file */
+    font-size: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box; 
+    color: #000a62;
+}
+
+.textOverlay p{
+    margin: 0;
+}
+
+.bottomLeft, .bottomCenter, .lowerText {
+    margin-bottom: 10px;
+   
+}
+
+.bottomLeft p{
+    font-family: 'Porter Sans'; 
+    src: url('../Assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.eot') format('eot'); 
+    font-size: 30px;
+
+}
+
+.lowerText p{
+    font-family: 'Poppins'; 
+    src: url('../Assets/Fonts/Poppins/Poppins-Bold.ttf') format('ttf'); 
+    font-size: 20px;
+}
+
+
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* 2nd container */
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align:justify;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+
+.flexItem2{
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexItem2 img{
+    height: auto;
+    max-width: 100%;
+    
+}
+.text{
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: right;
+}
+
+
+/*section */
+.flex-container2 {
+    display: flex;
+    align-items: center;
+    background-color: #000a62;
+    color: #ffffff;
+    
+}
+
+.text-content {
+    flex: 1; 
+    padding: 20px;
+    flex-basis: 30%;
+    color: black;
+    margin-right: 95px;
+   
+}
+
+.text-content h6 {
+    margin-top: 0;
+    color: white; 
+
+}
+.text-content h2 {
+    margin-top: 0; 
+    color: black;
+    
+}
+
+.text-content p {
+    margin-top: 0;
+    font-size: 16px; 
+    color: rgb(255, 255, 255);
+}
+
+.image-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    margin: 45px;
+    
+}
+
+.image-container img {
+    max-width: 100%; 
+    max-height: 60%; 
+    object-fit: cover; 
+
+}
+
+.button {
+    padding: 10px 20px;
+    background-color:#000a62;
+    color: white;
+    border-radius:12px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+/* slider section */
+.flex-container1 {
+    display: flex;
+    align-items: center;
+    background-color: #E86900;
+}
+
+.text-content {
+    flex: 1; 
+    padding: 20px;
+    flex-basis: 30%;
+    color: white;
+    margin-right: 65px;
+   
+}
+
+.text-content h6 {
+    margin-top: 0;
+    color: #3A5ef8; 
+}
+.text-content h2 {
+    margin-top: 0; 
+}
+
+.text-content p {
+    margin-top: 0;
+    font-size: 16px; 
+}
+
+.image-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    margin: 45px;
+}
+
+.image-container img {
+    max-width: 100%; 
+    max-height: 60%; 
+    object-fit: cover; 
+
+}
+
+/* upcoming trip */
+
+.flex-container3 {
+    display: flex;
+    align-items: center;
+    background-color: #E86900;
+}
+
+.text-content {
+    flex: 1; 
+    padding: 20px;
+    flex-basis: 30%;
+    color: white;
+    margin-right: 65px;
+   
+}
+
+.text-content h6 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #3A5ef8; 
+    text-align: center;
+}
+
+.text-content h5{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    
+
+}
+
+.text-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.text-content p {
+    margin-top: 0;
+    font-size: 16px; 
+    
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  
+  
+
+
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .text-content, .image-container {
+        flex: none; 
+        width: 100%; 
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+
+/* social media icons footer */
+.footerMedia {
+    display: flex;
+    justify-content:left; 
+    align-items:right; 
+  }
+  
+  .footerMedia img {
+    width: 77px; 
+    height: 77px; 
+    margin: 0 10px;
+  }
+
+  .footerLogo{
+    display: flex;
+    justify-content:left; 
+    align-items:right; 
+  }
+  .footerLogo img {
+    width: 226px; 
+    height: 48px; 
+    margin: 0 10px;
+    display: block;
+  }
+  .footerLogo p{
+    text-align: left; 
+    margin-top: 10px;
+    font-size: 15px;
+    display: block;
+  }
+
+.footerLinks{
+    font-size: 20px;
+}
