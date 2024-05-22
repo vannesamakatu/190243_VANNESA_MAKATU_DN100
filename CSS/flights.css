@@ -62,6 +62,7 @@ body{
     color: #E86900;
 }
 
+
 .headerBg {
     background-image: url("../Assets/Images/headerbackBack.png");
     min-height: 300px;
@@ -193,8 +194,9 @@ body{
 
 .image-container img {
     max-width: 100%; 
-    max-height: 60%; 
     object-fit: cover; 
+    height: auto;
+   
 
 }
 
@@ -248,6 +250,8 @@ body{
 footer {
     background-color: #ffffff;
     padding: 20px 0;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 .footer-columns {
@@ -255,6 +259,11 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+}
+.footerP{
+    font-size: small;
+    color: grey;
+
 }
 
 .footer-column {
@@ -264,16 +273,21 @@ footer {
 
 .footer-column h3 {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .footer-column ul {
     list-style: none;
     padding: 0;
+    font-size: small;
+    text-align: left;
 }
 
 .footer-column ul li {
     margin-bottom: 5px;
+    font-size: small;
+    color: grey;
+    text-align: left;
 }
 
 
@@ -285,9 +299,10 @@ footer {
   }
   
   .footerMedia img {
-    width: 77px; 
-    height: 77px; 
+    width: 50px; 
+    height: 50px; 
     margin: 0 10px;
+    margin-bottom: 1rem;
   }
 
   .footerLogo{
@@ -302,13 +317,29 @@ footer {
     display: block;
   }
   .footerLogo p{
-    text-align: left; 
+    text-align:left; 
     margin-top: 10px;
     font-size: 15px;
     display: block;
+    margin: 0 10px;
+    
   }
 
 .footerLinks{
     font-size: 20px;
+}
+
+.footer-info {
+    flex: 1;
+    text-align:left;
+    font-size: small;
+    
+}
+
+.footer-info2{
+    flex: 1;
+    text-align:right;
+    font-size: small;
+   
 }
 

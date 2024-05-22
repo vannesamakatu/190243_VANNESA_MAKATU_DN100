@@ -34,7 +34,10 @@
                   <a href="../Pages/flights.html">Flights</a>
                </div>
             </nav>
-
+            <div class="search-bar">
+                <input type="search" placeholder="Search">
+                <button type="submit"></button>
+            </div>
             </div>
         </div>
     </div>
@@ -81,6 +84,29 @@
                     <img src="../Assets/Images/smX.png">
                     <img src="../Assets/Images/smFacebook.png">
                 </div>    
+                <div class="formContainer">
+                    <form id="contact">
+                        <h1>Send Us a Message</h1>
+                        <fieldset>
+                            <input placeholder="Name" type="text" tabindex="1" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Surname" type="text" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Email" type="email" tabindex="3" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Repeat Password" type="password" tabindex="4" required>
+                        </fieldset>
+                        <fieldset>
+                            <textarea placeholder="Type your message..." tabindex="6"></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submitButton" type="submit" id="contactUsSubmit" tabindex="8">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
     
         <div class="text-content">
@@ -88,49 +114,26 @@
             <h2>PHYSICAL LOCATION</h2>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.3213561592543!2d28.206956673836565!3d-25.89180435132094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956608911ce097%3A0x519896b4b6eda40a!2sOpen%20Window%20-%20Centurion!5e0!3m2!1sen!2sza!4v1712282106472!5m2!1sen!2sza" width="607" height="534" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             </div>
+            
         </div>
        
-<div class="formContainer">
-    <form id="contact">
-        <h1>Send Us a Message</h1>
-        <fieldset>
-            <input placeholder="Name" type="text" tabindex="1" required>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Surname" type="text" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Email" type="email" tabindex="3" required>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Repeat Password" type="password" tabindex="4" required>
-        </fieldset>
-        <fieldset>
-            <textarea placeholder="Type your message..." tabindex="6"></textarea>
-        </fieldset>
-        <fieldset>
-            <button name="submitButton" type="submit" id="contactUsSubmit" tabindex="8">Submit</button>
-        </fieldset>
-    </form>
-</div>
-</div>
-</div>
 
 
-    
-    
 
-  
+
 <footer>
     <div class="footer-columns">
         <div class="footer-column">
             <div class="footerLogo">
             <img src="../Assets/Images/logo.png">
-            <p>
-            Offering unforgettable trips to explore planets in our solar system.
-            </p>
             </div>
+            <div class="footerP">
+                <p>Offering unforgettable trips to </p> 
+                <p>explore planets in our </p>
+                <p>solar system.</p> 
+            </div> 
         </div>
 
 
@@ -147,17 +150,29 @@
 
 
         <div class="footer-column">
+            <h3>Social Media Links</h3>
             <div class="footerMedia">
-               
                 <img src="../Assets/Images/smInstagram.png">
                 <img src="../Assets/Images/smTicktock.png">
                 <img src="../Assets/Images/smX.png">
                 <img src="../Assets/Images/smFacebook.png">
             </div> 
         </div>
+       
+    </div>
+    <div class="footer-info">
+        <p>Terms & Conditions | Privacy & Policy</p>
+        <div class="footer-info2">
+            <p>All Rights Reserved @ Open Window 2024</p>
+        </div>
+        
     </div>
 </footer>
 
+    
+    
+
+  
 
 </body>
 </html>

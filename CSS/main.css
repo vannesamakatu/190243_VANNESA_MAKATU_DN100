@@ -66,6 +66,28 @@ body{
     color: #E86900;
 }
 
+/* search bar */
+search-bar {
+    position: relative;
+}
+
+.search-bar input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+/* search bar */
 
 .textOverlay {
     font-family: 'Porter Sans'; /* Name your font family */
@@ -117,7 +139,9 @@ h1{
     font-size: 16px;
     text-align:justify;
     justify-content:space-between;
-    align-items: center;
+    align-items: left;
+    text-align: center;
+    padding: 50px 20px;
 }
 
 
@@ -125,12 +149,13 @@ h1{
 .flexItem2{
     padding: 10px;
     flex: 50%;
+    text-align: center;
+    padding: 50px 20px;
 }
 
 .flexItem2 img{
     height: auto;
     max-width: 100%;
-    
 }
 .text{
     padding-left: 2em;
@@ -145,6 +170,7 @@ h1{
     align-items: center;
     background-color: #000a62;
     color: #ffffff;
+    
     
 }
 
@@ -296,7 +322,11 @@ h1{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    gap: 10px;
+    gap: 15px;
+    padding: 20px 0;
+    padding: 1rem 0;
+    text-align: center;
+    
   }
   
   
@@ -317,6 +347,8 @@ h1{
 footer {
     background-color: #ffffff;
     padding: 20px 0;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 .footer-columns {
@@ -324,6 +356,11 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+}
+.footerP{
+    font-size: small;
+    color: grey;
+
 }
 
 .footer-column {
@@ -333,16 +370,21 @@ footer {
 
 .footer-column h3 {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .footer-column ul {
     list-style: none;
     padding: 0;
+    font-size: small;
+    text-align: left;
 }
 
 .footer-column ul li {
     margin-bottom: 5px;
+    font-size: small;
+    color: grey;
+    text-align: left;
 }
 
 
@@ -354,9 +396,10 @@ footer {
   }
   
   .footerMedia img {
-    width: 77px; 
-    height: 77px; 
+    width: 50px; 
+    height: 50px; 
     margin: 0 10px;
+    margin-bottom: 1rem;
   }
 
   .footerLogo{
@@ -371,12 +414,28 @@ footer {
     display: block;
   }
   .footerLogo p{
-    text-align: left; 
+    text-align:left; 
     margin-top: 10px;
     font-size: 15px;
     display: block;
+    margin: 0 10px;
+    
   }
 
 .footerLinks{
     font-size: 20px;
+}
+
+.footer-info {
+    flex: 1;
+    text-align:left;
+    font-size: small;
+    
+}
+
+.footer-info2{
+    flex: 1;
+    text-align:right;
+    font-size: small;
+   
 }
