@@ -27,7 +27,7 @@ body{
 }
 
 .topNav{
-    width: 255%;
+    width: 176%;
     overflow:hidden;
     background-color:rgba(160, 159, 159, 0.5);
     opacity: o 0.5;
@@ -61,6 +61,31 @@ body{
 .topNav a.active{
     color: #E86900;
 }
+
+/* search bar */
+.search-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.search-bar input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+/* search bar */
+
 
 
 .headerBg {
@@ -246,6 +271,18 @@ body{
 }
 
 
+
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .text-content, .image-container {
+        flex: none; 
+        width: 100%; 
+    }
+}
+
 /* Footer */
 footer {
     background-color: #ffffff;
@@ -342,4 +379,3 @@ footer {
     font-size: small;
    
 }
-

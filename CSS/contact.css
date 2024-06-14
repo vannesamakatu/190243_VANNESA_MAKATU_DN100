@@ -27,7 +27,7 @@ body{
 }
 
 .topNav{
-    width: 255%;
+    width: 176%;
     overflow:hidden;
     background-color:rgba(160, 159, 159, 0.5);
     opacity: o 0.5;
@@ -62,9 +62,11 @@ body{
     color: #E86900;
 }
 
+
 /* search bar */
-search-bar {
+.search-bar {
     position: relative;
+    display: inline-block;
 }
 
 .search-bar input[type="search"] {
@@ -84,6 +86,7 @@ search-bar {
     padding: 10px;
 }
 /* search bar */
+
 
 
 .headerBg {
@@ -211,16 +214,6 @@ search-bar {
 
 
 
-@media (max-width: 768px) {
-    .flex-container {
-        flex-direction: column;
-    }
-    .text-content, .image-container {
-        flex: none; 
-        width: 100%; 
-    }
-}
-
 
 /* social media side */
  .socialMedia {
@@ -345,6 +338,20 @@ fieldset{
 
 #contact input:hover, #contact textarea:hover{
     background-color: #f3f3f39d;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .text-content, .image-container {
+        flex: none; 
+        width: 100%; 
+    }
 }
 
 /* Footer */
